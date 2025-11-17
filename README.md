@@ -2,8 +2,9 @@
 Algorithm for predicting the next word using a Markov Chain
 
 USAGE:
-The program takes in a number of text files and tries to predict the next word(s) that comes in a sentence.
+The program takes in a number of text files (12 are provided) and tries to predict the next word(s) that comes in a sentence.
 The user can provide input but they don't have to.
+Open pred.exe on Windows and pred on Linux
 
 SETTINGS:
 They can be accessed by inputting "set&" after the program has finished preparing itself. 
@@ -11,6 +12,7 @@ They can be accessed by inputting "set&" after the program has finished preparin
 0% means always choosing the best option (which can often result in an infinite loop)
 100% means always choosing the worst possible option (encountered the least amount of times)
 For me the ideal values are 40 and 20 but feel free to change them
+
 2. Output type - Could be "S" (sentences) or "W" (words). 
 This just changes whether the program outputs a single word or sentence with each newline
 When "W" is selected, after each word comes either a "|" or a "/" sign.
