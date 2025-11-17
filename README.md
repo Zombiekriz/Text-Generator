@@ -21,7 +21,7 @@ The second one means it had no idea and just picked randomly.
 
 ADDING FILES:
 It is possible to add your own text files.
-You have to paste a .txt file into the \text folder and renaming it to file(number_of_biggest_file+1)(title).txt
+You have to paste a .txt file into the \text folder and rename it to file(number_of_biggest_file+1)(title).txt
 Example: file13breaking_bad.txt
 
 EXTRA:
